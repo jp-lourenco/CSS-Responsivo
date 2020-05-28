@@ -1,0 +1,55 @@
+/*necessario para remover o padding padrao*/
+body, h1, h2, h3, p, ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #252525;
+}
+
+/* Menu */
+
+.menu {
+    background: #252525;
+    padding: 20px 0;
+}
+
+.menu-container {
+    max-width: 960px;
+    /*responsivo para a esquerda e direita*/
+    margin: 0 auto;
+}
+
+/*necessario para pegar height automatico com elemento float*/
+.menu-container::after, .menu-container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+a.menu-logo {
+    display: block;
+    float: left;
+    margin-left: 15px;
+}
+
+.menu-navegacao{
+    float: right;
+    margin-right: 10px;
+}
+
+.menu-navegacao li {
+    display: inline-block;
+}
+
+.menu-navegacao a {
+    display: block;
+    padding: 10px;
+    /*tirar o azul*/
+    text-decoration: none;
+    color: #fff;
+    /*18px 18/16  "em" => melhor para responsividade*/
+    font-size: 1.125em;
+}
