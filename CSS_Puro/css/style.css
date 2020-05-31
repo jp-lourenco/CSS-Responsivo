@@ -88,7 +88,7 @@ a.menu-logo {
 }
 
 .intro {
-    background: url('../assets/images/bg-intro.jpg') no-repeat center center;
+    background: url('../../assets/images/bg-intro.jpg') no-repeat center center;
     background-size: cover;
     padding: 150px 0;
     text-align: center;
@@ -416,7 +416,7 @@ h2.produtos-mineiro::before {
 }
 
 .assine button {
-    background: #000;
+    background: #252525;
     border: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
