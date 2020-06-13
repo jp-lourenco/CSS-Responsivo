@@ -53,7 +53,9 @@ body {
 .intro {
 	background: url('../../assets/images/bg-intro.jpg') no-repeat center center;
 	background-size: cover;
-	color: #fff;
+    color: #fff;
+    padding: 150px 0;
+    text-align: center;
 }
 
 .intro h1 {
@@ -66,7 +68,8 @@ body {
 	display: block;
 	width: 20px;
 	height: 4px;
-	background: #fff;
+    background: #fff;
+    margin: 10 auto;
 }
 
 .intro p {
